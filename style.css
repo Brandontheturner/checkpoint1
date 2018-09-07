@@ -1,6 +1,6 @@
 body {
     width: 100vw;
-    background-color: teal;
+    
 
 }
 
@@ -8,6 +8,7 @@ body {
     height: 150px;
     width: 100vw;
     margin: auto;
+    padding-bottom: 20px;
     
 }
 
@@ -34,33 +35,47 @@ body {
     background-color: yellow;
     margin: auto;
     text-align: center;
-    text-decoration: none:
+    text-decoration: none;
+    padding-bottom: 30px;
+}
 
+.btn {
+    border: none;
+    width: 70px;
+    height: 30px;
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 5px;
 }
 
 li {
     display: inline;
-    padding: 100px;
+    padding: 125px;
 }
 
 .topmiddlebox {
     height: 200px;
     width: 100vw;
-    background-color: salmon;
     margin: auto;
+    background-color: pink;
 }
 
 .topimage {
-    height: 100px;
-    width: 50%;
-    background-color: white;
-    margin: auto;
+    height: 200px;
+    width: 20%;
+    background-image: url(./bonejar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+    
 }
 
 .topmiddletext {
     height: 50px;
     width: 90%;
-    background-color: grey;
     margin: auto;
 }
 
@@ -76,7 +91,6 @@ li {
     width: 50%;
     float: left;
     margin: auto;
-    color: rgb(255, 16, 16);
     
 }
 
@@ -85,7 +99,6 @@ li {
     width: 50%;
     float: right;
     margin: auto;
-    color: rgb(247, 11, 11);
 }
 
 .bottombox {
