@@ -1,0 +1,110 @@
+body {
+    width: 100vw;
+    background-color: teal;
+
+}
+
+.topbox {
+    height: 150px;
+    width: 100vw;
+    margin: auto;
+    
+}
+
+.toptext {
+    height: 70px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background-image: url(./epic.jpg);
+    background-color: black;
+    font-size: 20px;
+    font-family: fantasy;
+    padding-top: 20px;
+    
+}
+
+.toptext img {
+    object-fit: cover;
+}
+
+.navbar {
+    height: 50px;
+    width: 90%;
+    background-color: yellow;
+    margin: auto;
+    text-align: center;
+    text-decoration: none:
+
+}
+
+li {
+    display: inline;
+    padding: 100px;
+}
+
+.topmiddlebox {
+    height: 200px;
+    width: 100vw;
+    background-color: salmon;
+    margin: auto;
+}
+
+.topimage {
+    height: 100px;
+    width: 50%;
+    background-color: white;
+    margin: auto;
+}
+
+.topmiddletext {
+    height: 50px;
+    width: 90%;
+    background-color: grey;
+    margin: auto;
+}
+
+.bottommiddlebox {
+    height: 150px;
+    width: 100vw;
+    margin: auto;
+    
+}
+
+.leftbox {
+    height: 100%;
+    width: 50%;
+    float: left;
+    margin: auto;
+    color: rgb(255, 16, 16);
+    
+}
+
+.rightbox {
+    height: 100%;
+    width: 50%;
+    float: right;
+    margin: auto;
+    color: rgb(247, 11, 11);
+}
+
+.bottombox {
+    height: 150px;
+    width: 100vw;
+    margin: auto;
+    background-color: forestgreen;
+}
+
+.bottomimage {
+    height: 150px;
+    width: 175px;
+    margin: auto;
+    background-color: white;
+}
+
+.footer {
+    height: 100px;
+    width: 100vw;
+    margin: auto;
+    background-color: grey;
+}
