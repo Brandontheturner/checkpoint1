@@ -1,160 +1,140 @@
 body {
+    background-color: grey;
+    height: 100vh;
     width: 100vw;
-    background-image: url(./steamtwo.gif);
-    background-size: contain;
-    
-
 }
 
 .topbox {
-    height: 150px;
+    height: 50vh;
     width: 100vw;
-    margin: auto;
-    padding-bottom: 50px;
-    background-color: black;
-    
+    background-color: #EE3B24;
+    background-size: contain;
+    background-repeat: repeat;
+    margin: none;
+    padding: none;
+    border: none;
+
 }
 
-.toptext {
-    height: 70px;
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    font-size:40px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    color: black;
-    background-image: url(./veg.jpg);
-    background-color: black;
-    background-position: center;
-    background-repeat: repeat-x;
-    font-family: fantasy;
-    padding-top: 20px;
-    
+.topleft {
+    height: 50vh;
+    width: 50vw;
+    float: left;
+    margin: none;
+    padding: none;
+    border: none;
 }
 
-.navbar {
-    height: 50px;
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    text-decoration: none;
-    
-}
-
-.btn {
-    width: 100px;
-    height: 60px;
-    background-image: url(./steam.gif);
+.topleftimage {
+    height: 50vh;
+    width: 25vw;
+    float: left;
+    padding: none;
+    margin: none;
+    background-image: url(./logo.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: black;
-    opacity: .5;
-    color: white;
-    font-style: oblique;
-    font-size: 15px;
     background-position: center;
+}
 
-    text-align: center;
-    padding: 15px;
+.toprightone {
+    height: 50vh;
+    width: 25vw;
+    float: left;
+    margin: none;
+    padding: none;
+    border: none;
+    background-image: url(./beefone.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+.toprighttwo {
+    height: 50vh;
+    width: 25vw;
+    float: right;
+    margin: none;
+    padding: none;
+    border: none;
+    background-image: url(./cow.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+.topright {
+    height: 50vh;
+    width: 50vw;
+    float: right;
+    margin: none;
+    padding: none;
+    border: none;
+    background-color: grey;
+}
+
+.bottombox {
+    height: 50vh;
+    width: 100vw;
+    padding: none;
+    margin: none;
+    border: none;
+
+}
+
+.bottomleft {
+    height: 50vh;
+    width: 50vw;
+    float: left;
+    margin: none;
+    padding: none;
+    border: none;
+    background-image: url(./vegboard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    font-size: 100px;
+    background-color: #EE3B24;    
 }
 
 li {
     display: inline;
-    padding: 150px;
-}
-
-ul {
-    padding-bottom: 20px;
-}
-
-.topmiddlebox {
-    height: 200px;
-    width: 100vw;
-    margin: auto;
-    
-}
-
-.topimage {
-    height: 200px;
-    width: 20%;
-    background-image: url(./topbroth.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
-
-    
-}
-
-.topmiddletext {
-    height: 50px;
-    width: 40%;
-    margin: auto;
-    text-align: center;
+    list-style-type: none;
+    padding: 5%;
+    padding-top: none;
+    color: white;
 
 }
 
-.bottommiddlebox {
-    height: 350px;
-    width: 100vw;
-    margin: auto;
-    
-}
-
-.leftbox {
-    height: 100%;
-    width: 50%;
-    float: left;
-    margin: auto;
-}
-
-.leftimage {
-    background-image: url(./bonejar.jpg);
-    height: 100%;
-    width: 30%;
-    background-position: center;
-    background-repeat: repeat-x;
-    background-size: contain;
-    margin: auto;
-}
-
-.rightbox {
-    height: 100%;
-    width: 50%;
+.bottomright {
+    height: 50vh;
+    width: 50vw;
     float: right;
-    margin: auto;
-    text-align: right;
-       
+    margin: none;
+    padding: none;
+    border: none;
 }
 
-.rightimage {
-    height: 100%;
-    width: 30%;
-    background-image: url(./brothcup.jpg);
+.bottomrightleft {
+    height: 50vh;
+    width: 25vw;
+    float: left;
+    margin: none;
+    padding: none;
+    border: none;
+    background-image: url(./turkey.jpg);
     background-position: center;
-    background-repeat: no-repeat;
     background-size: contain;
-    margin: auto;
 }
 
-.bottombox {
-    height: 150px;
-    width: 100vw;
-    margin: auto;
-    background-color: black;
-}
-
-.bottomimage {
-    height: 150px;
-    width: 175px;
-    margin: auto;
-    background-image: url(./beef.pdf);
-}
-
-.footer {
-    height: 100px;
-    width: 100vw;
-    margin: auto;
-    background-color: grey;
+.bottomrightright {
+    height: 50vh;
+    width: 25vw;
+    float: right;
+    margin: none;
+    padding: none;
+    border: none;
+    background-image: url(./tallow.jpg);
+    background-position: center;
+    background-size: contain;
 }
