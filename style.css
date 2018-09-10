@@ -7,9 +7,9 @@ body {
 .topbox {
     height: 50vh;
     width: 100vw;
-    background-color: #EE3B24;
     background-size: contain;
     background-repeat: repeat;
+    background-color: #EE3B24;
     margin: none;
     padding: none;
     border: none;
@@ -37,10 +37,25 @@ body {
     background-position: center;
 }
 
-.toprighttext {
+.toprighttext  {
     height: 50vh;
     width: 25vw;
     float: right;
+    font-size: 125px;
+}
+
+.toprighttext p {
+    font-size: 150px;
+    text-shadow: #EE3B24 1pt;
+    color: white;
+}
+
+.toprighttext li {
+    text-decoration: none;
+    display: block;
+    padding-top: 75px;
+    padding: 40px;
+    color: white;
 }
 
 .toprightone {
@@ -103,7 +118,7 @@ body {
     background-color: #EE3B24;    
 }
 
-li {
+.nav li {
     display: inline;
     list-style-type: none;
     padding: 5%;
